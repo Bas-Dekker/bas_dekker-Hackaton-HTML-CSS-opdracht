@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Contact</title>
+    <meta name="description" content="rent adopt a dog" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Contactformulier</h1>
+    <main>
+      <form action="#" method="get" class="contactformulier">
+        <div class="wrapper">
+          <label
+            >Man: <input type="radio" name="gender" id="man" value="Man"
+          /></label>
+          <label
+            >Vrouw: <input type="radio" name="gender" id="vrouw" value="Vrouw"
+          /></label>
+          <label
+            >Anders:
+            <input type="radio" name="gender" id="anders" value="Anders"
+          /></label>
+        </div>
+        <div class="form-row">
+          <label
+            >Naam: <input type="text" name="full-name" id="name" required
+          /></label>
+        </div>
+        <div class="form-row">
+          <label
+            >Email:
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="jan@jansen.com"
+          /></label>
+        </div>
+        <div class="form-row">
+          <label>Telefoon: <input type="tel" name="phone" id="phone" /></label>
+        </div>
+        <h3>Voorkeur voor tafel:</h3>
+        <div class="form-row">
+          <label class="checkbox-label"
+            >Klein <input type="checkbox" name="klein" id="klein"
+          /></label>
+        </div>
+        <div class="form-row">
+          <label class="checkbox-label"
+            >Medium: <input type="checkbox" name="medium" id="medium"
+          /></label>
+        </div>
+        <div class="form-row">
+          <label class="checkbox-label"
+            >Groot:<input type="checkbox" name="groot" id="groot"
+          /></label>
+        </div>
+        <div class="form-row">
+          <label class="checkbox-label"
+            >Maakt niet uit<input type="checkbox" name="nvt" id="nvt"
+          /></label>
+        </div>
+        <div class="form-row">
+          <label
+            >Kies reserveringsdatum:
+            <input type="date" id="reserveringsdatum" name="reserveringsdatum"
+          /></label>
+        </div>
+        <div class="form-row">
+          <label>Aanvullende informatie: </label
+          ><textarea id="textarea" name="textarea"> </textarea>
+        </div>
+        <div class="form-row"><button type="submit">Submit</button></div>
+      </form>
+    </main>
+    <footer>
+      <h6 class="#">Copyright The Bay 2021</h6>
+    </footer>
+  </body>
+</html>
